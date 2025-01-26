@@ -60,5 +60,5 @@ def main():
             for i, medicine in enumerate(medicine_list):
                 st.write(f"Medicine {i+1}: {medicine}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
